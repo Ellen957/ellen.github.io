@@ -16,7 +16,7 @@ comments: true
     首先要注册账号：
     首先要有一个github账号，登录首页，完成注册后登录自己的账号。github地址：https://github.com/ 然后点击首页在你的头像旁边的+，点击New repository，创建页面仓库。
     
-    ![exemple Image](https://github.com/Ellen957/ellen.github.io/blob/master/assets/img/blogUse/Teache/12.PNG)
+![exemple Image](https://github.com/Ellen957/ellen.github.io/blob/master/assets/img/blogUse/Teache/12.PNG)
 {: .image-center}
 
     
