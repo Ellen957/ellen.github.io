@@ -44,7 +44,7 @@ comments: true
 
     然后回到github desktop，此时左边changges就会有蓝色提示符，下面就会显示出你刚刚复制过去得文件目录，选择所有文件，添加更改描述，然后点击蓝色按钮Commit to master，将对文件夹的更改提交到github里面，再点击Publish branch，等待提交完毕后，就可以打开网页github查看你的更改了。
     
-    ![exemple Image](https://github.com/Ellen957/ellen.github.io/blob/master/assets/img/blogUse/Teache/7.PNG)
+ ![exemple Image](https://github.com/Ellen957/ellen.github.io/blob/master/assets/img/blogUse/Teache/7.PNG)
 
 
 ![exemple Image](https://github.com/Ellen957/ellen.github.io/blob/master/assets/img/blogUse/Teache/8.PNG)
