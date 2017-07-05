@@ -1,97 +1,54 @@
 ---
 layout: post
-title:  "测试发布文档"
-date:   2017-07-04
-excerpt: "一个测试文档"
+title:  "使用GitHub+jekyll建立一个博客"
+date:   2017-07-06
+excerpt: "通过使用jekyll模板，从无到有建立一个简单的博客"
 tag:
-- markdown 
-- sample
-- test
+- github
+- 博客建立
 - jekyll
 comments: true
 ---
 
-## 这是一个测试文档！
+## 使用GitHub+jekyll建立一个博客
+   因为版本的更新，在我使用github建立博客的时候一些页面显示已经和网上的一些攻略不一样了，所以新建立了一个博客作为示例，向大家介绍一下如何创建github技术。
+   
+    首先要注册账号：
+    首先要有一个github账号，登录首页，完成注册后登录自己的账号。
+    
+    地址：https://github.com/
+    
+    新建Repository
+    点击首页在你的头像旁边的+，点击New repository，创建页面仓库。
+    
+![exemple Image](https://raw.githubusercontent.com/Ellen957/ellen.github.io/master/assets/img/blogUse/Teache/1.png)
+{: .image-center}
 
-### Body text
+    如图，输入Repository name,一定要按照 名称/github/io的规则编写，然后其余的不用改，点击绿色按钮Create repository.
+    
+![exemple Image](https://raw.githubusercontent.com/Ellen957/ellen.github.io/master/assets/img/blogUse/Teache/2.png)
+{: .image-center}
 
-Lorem ipsum dolor sit amet, test link adipiscing elit. **This is strong**. Nullam dignissim convallis est. Quisque aliquam.
+    页面跳转后，点击set up in desktop，确保已经下载了github desktop，我用的版本是version 0.6.2,点击set up in desktop自动打开的github desktop会自动弹出一个窗口，上面的local path地址就是需要记住的你本地的管理博客内容的文件夹，也可以改成自己想要的地址，点击Clone选择确定。
+    
+![exemple Image](https://raw.githubusercontent.com/Ellen957/ellen.github.io/master/assets/img/blogUse/Teache/3.png)
+{: .image-center}
 
-![Smithsonian Image](https://raw.githubusercontent.com/Ellen957/ellen.github.io/master/assets/img/logo2.jpg)
-{: .image-right}
+    打开本地刚才要记住的文件夹，如我的就是在D:\我的文档\GitHub\test.github.io，现在里面除了.git之外什么都没有，可以从http://jekyllthemes.org/  这个网站下载模板，再根据自己的需要更改。下载以后模板应该是一个压缩文件，打开压缩文件，里面的文件如图所示。
+    
+![exemple Image](https://raw.githubusercontent.com/Ellen957/ellen.github.io/master/assets/img/blogUse/Teache/5.png)
+{: .image-center}
+    
+    将里面的所有文件复制到我们博客的本地文件夹里面，如图。
+    
+![exemple Image](https://raw.githubusercontent.com/Ellen957/ellen.github.io/master/assets/img/blogUse/Teache/6.png)
+{: .image-center}
 
-*This is emphasized*. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H2O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times (That’s a citation). Underline.Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
-
+    然后回到github desktop，此时左边changges就会有蓝色提示符，下面就会显示出你刚刚复制过去得文件目录，选择所有文件，添加更改描述，然后点击蓝色按钮Commit to master，将对文件夹的更改提交到github里面，再点击Publish branch，等待提交完毕后，就可以打开网页github查看你的更改了。
+    
+    此时回到github网页版，点击setting，在最下方页面有一栏 github pages，此时Source下面的None下拉框可以选择，选择到如图master branch 并点击保存，页面更新后上方出现的地址就是你的博客地址啦。当然，如果愿意用这个地址可以自己申请域名更换。此时点击进入就可以看到已经套用模板格式的博客首页啦。
 HTML and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.
 
-### Blockquotes
-
-> Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam.
-
-## List Types
-
-### Ordered Lists
-
-1. Item one
-   1. sub item one
-   2. sub item two
-   3. sub item three
-2. Item two
-
-### Unordered Lists
-
-* Item one
-* Item two
-* Item three
-
-## Tables
-
-| Header1 | Header2 | Header3 |
-|:--------|:-------:|--------:|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|----
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|=====
-| Foot1   | Foot2   | Foot3
-{: rules="groups"}
-
-## Code Snippets
-
-{% highlight css %}
-#container {
-  float: left;
-  margin: 0 -240px 0 0;
-  width: 100%;
-}
-{% endhighlight %}
-
-## Buttons
-
-Make any link standout more when applying the `.btn` class.
-
-{% highlight html %}
-<a href="#" class="btn btn-success">Success Button</a>
-{% endhighlight %}
-
-<div markdown="0"><a href="#" class="btn">Primary Button</a></div>
-<div markdown="0"><a href="#" class="btn btn-success">Success Button</a></div>
-<div markdown="0"><a href="#" class="btn btn-warning">Warning Button</a></div>
-<div markdown="0"><a href="#" class="btn btn-danger">Danger Button</a></div>
-<div markdown="0"><a href="#" class="btn btn-info">Info Button</a></div>
-
-## KBD
-
-You can also use `<kbd>` tag for keyboard buttons.
-
-{% highlight html %}
-<kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd>
-{% endhighlight %}
-
-Press <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> to move your car. **Midtown Maddness!!**
-
-## Notices
 
 **Watch out!** You can also add notices by appending `{: .notice}` to a paragraph.
 {: .notice}
